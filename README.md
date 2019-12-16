@@ -4,6 +4,8 @@
 
 **Drawbacks**: The main drawback of this approach in general is that all states must be stored in memory. It's interesting that the number of unique states (when the agent must learn to play first or second) is 8,533. Given the seemingly small total action space at each step, it's easy to see how much one would need to save to memory to teach an agent a much more complex game.
 
+![tictacwhoagif](https://media.giphy.com/media/hRBtq1lRaxWWQ60sex/giphy.gif)
+
 **Next**: 
 * Compare these results to that of deep Q-learning.
 * Train two agents at the same time against each other.
